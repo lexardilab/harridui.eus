@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="w-full bg-[#eae9b9] items-center justify-center flex">
       <Link href="/">
-        <Image src="/Harridui.jpg" width="70" height="70" alt="" />
+        <Image src="/icon_logo.png" width="100" height="100" alt="" />
       </Link>
     </div>
   );
