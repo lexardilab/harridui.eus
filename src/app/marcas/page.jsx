@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <>
+    <main className="bg-[#eae9b9] h-screen">
       <div className="grid grid-cols-4 gap-4 py-4 ">
         <div className="flex items-center justify-center">
           <Link href="/">
@@ -11,41 +11,41 @@ export default function page() {
               src="/StanleyStella_Logo.png"
               width="200"
               height="84"
-              alt=""
+              alt="Stanley Stella"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="/">
+            <Image src="/Bc_Logo.png" width="130" height="20" alt="Bc" />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="/">
+            <Image
+              src="/Flexfit_Logo.png"
+              width="200"
+              height="84"
+              alt="Flexfit"
             />
           </Link>
         </div>
         <div className="flex items-center justify-center">
           <Link href="/">
             <Image
-              src="/StanleyStella_Logo.png"
+              src="/Beechfield_Logo.png"
               width="200"
               height="84"
-              alt=""
+              alt="Beechfield"
             />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="/">
-            <Image
-              src="/StanleyStella_Logo.png"
-              width="200"
-              height="84"
-              alt=""
-            />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center">
-          <Link href="/">
-            <Image
-              src="/StanleyStella_Logo.png"
-              width="200"
-              height="84"
-              alt=""
-            />
+            <Image src="/Westford_Logo.png" width="200" height="84" alt="" />
           </Link>
         </div>
       </div>
-    </>
+    </main>
   );
 }
