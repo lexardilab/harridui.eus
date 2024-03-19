@@ -7,7 +7,7 @@ export default function Navbar() {
       <Link href="/">
         <Image src="/icon_logo.png" width="100" height="100" alt="" />
       </Link>
-      <Link href="mailto:kaixo@harridui.com">
+      <Link href="mailto:harridui.studio@gmail.com">
         <h1 className="text-2xl font-black">kaixo@harridui.com</h1>
       </Link>
     </div>

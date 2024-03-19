@@ -48,7 +48,12 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="/">
-            <Image src="/Westford_Logo.png" width="200" height="84" alt="" />
+            <Image
+              src="/Westford_Logo.png"
+              width="200"
+              height="84"
+              alt="Westford Mills"
+            />
           </Link>
         </div>
       </div>
