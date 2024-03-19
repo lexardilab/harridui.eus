@@ -3,7 +3,11 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
+<<<<<<< HEAD
     <div className="w-full bg-[#eae9b9] items-center justify-between flex">
+=======
+    <div className="w-full bg-[#eae9b9] items-center justify-left flex">
+>>>>>>> 6f4f9be43677a5a877507a0de44001951b22fd31
       <Link href="/">
         <Image src="/icon_logo.png" width="100" height="100" alt="" />
       </Link>
