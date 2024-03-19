@@ -14,9 +14,7 @@ export default function Navbar() {
         <Link href="/serigrafia">
           <h1 className="px-2 font-light">Serigrafía</h1>
         </Link>
-        <Link href="/diseno">
-          <h1 className="px-2 font-light">Diseño</h1>
-        </Link>
+
         <Link href="/servicios">
           <h1 className="px-2 font-light">Servicios</h1>
         </Link>
