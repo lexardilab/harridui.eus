@@ -8,13 +8,6 @@ export default function Navbar() {
         <Image src="/icon_logo.png" width="100" height="100" alt="" />
       </Link>
       <div className="flex pr-12">
-        <Link href="/harridui">
-          <h1 className="px-2 font-light">Harridui</h1>
-        </Link>
-        <Link href="/serigrafia">
-          <h1 className="px-2 font-light">Serigrafía</h1>
-        </Link>
-
         <Link href="/servicios">
           <h1 className="px-2 font-light">Servicios</h1>
         </Link>
