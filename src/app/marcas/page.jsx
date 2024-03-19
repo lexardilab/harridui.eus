@@ -4,9 +4,15 @@ import Link from "next/link";
 export default function page() {
   return (
     <main className="bg-[#eae9b9] h-screen">
+      <div className="flex justify-center pt-6 pb-12">
+        <h1 className="text-4xl font-black">Nuestras marcas</h1>
+      </div>
       <div className="grid grid-cols-4 gap-4 py-4 ">
         <div className="flex items-center justify-center">
-          <Link href="/">
+          <Link
+            href="https://online.flippingbook.com/view/865225458/"
+            target="_blank"
+          >
             <Image
               src="/StanleyStella_Logo.png"
               width="200"
