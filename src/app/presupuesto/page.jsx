@@ -4,7 +4,7 @@ export default function page() {
       <div className="grid grid-cols-2 pt-12">
         <div className="pl-8">
           <h1 className="text-4xl font-semibold">Contáctanos</h1>
-          <p className="pt-12 text-4xl font-semibold">hola@harridui.com</p>
+          <p className="pt-12 text-4xl font-semibold">kaixo@harridui.com</p>
           <p className="pt-2 text-4xl font-semibold">688 84 32 13</p>
         </div>
         <div className="pr-12 ">
