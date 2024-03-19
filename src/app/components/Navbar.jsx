@@ -26,6 +26,9 @@ export default function Navbar() {
         <Link href="/presupuesto">
           <h1 className="px-2 font-light">Presupuesto</h1>
         </Link>
+        <Link href="https://harridui.com/tienda">
+          <h1 className="px-2 font-light">Tienda</h1>
+        </Link>
       </div>
     </div>
   );

@@ -39,9 +39,9 @@ export default function page() {
             </p>
             <p className="pt-12 text-xl font-semibold">Personalización</p>
             <p className="px-12 pt-6 text-lg font-normal leading-8">
-              Disponemos de un pulpo de serigrafía que nos permite estampar como
-              máximo 4 colores. Tenemos un catálogo de colores ya estandarizado
-              y además, podemos producir tu color Pantone.
+              Disponemos de un pulpo de serigrafía que nos permite estampar 4
+              colores. Tenemos un catálogo de colores ya estandarizado y además,
+              podemos producir tu color Pantone.
             </p>
             <p className="pt-12 text-xl font-semibold">Plazos de entrega</p>
             <p className="px-12 pt-6 text-lg font-normal leading-8">
