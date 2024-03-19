@@ -6,18 +6,7 @@ export default function Home() {
         <h1 className="text-xl font-semibold text-center ">1</h1>
         <h1 className="pl-2 text-xl font-light text-center">s.m.</h1>
       </div>
-      <div className="pl-12 ">
-        <div className="flex">
-          <h1 className="font-normal ">
-            harrieta, harritza, harkadi, hartxinga
-            <span className="text-xs font-light"> (de piedra pequeña)</span>,
-            harpil, harridui<span className="text-xs font-light"> (biz)</span>
-          </h1>
-        </div>
-        <h1 className="pt-2 font-semibold">
-          Lugar pedregoso. Pedregal. Sitio de piedras
-        </h1>
-      </div>
+
       <div className="pl-8">
         <h1 className="pt-24 font-black text-5xl/tight">
           Taller de serigrafía manual <br></br>dedicado a personalizar textil,{" "}
