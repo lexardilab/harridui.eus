@@ -22,7 +22,7 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="https://flexfit.com/2024-catalog/?page=6" target="_blank">
+          <Link href="https://www.bc-collection.eu/es/catalogo" target="_blank">
             <Image src="/Bc_Logo.png" width="130" height="20" alt="Bc" />
           </Link>
         </div>
