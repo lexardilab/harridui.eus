@@ -42,7 +42,7 @@ export default function page() {
             target="_blank"
           >
             <Image
-              src="/Beechfield.svg"
+              src="/beechfield.svg"
               width="200"
               height="84"
               alt="Beechfield"
@@ -55,7 +55,7 @@ export default function page() {
             target="_blank"
           >
             <Image
-              src="/Westford.svg"
+              src="/westford.svg"
               width="200"
               height="84"
               alt="Westford Mills"
