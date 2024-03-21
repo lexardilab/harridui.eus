@@ -14,7 +14,7 @@ export default function page() {
             target="_blank"
           >
             <Image
-              src="/StanleyStella_Logo.png"
+              src="/StanleyStella_Logo.svg"
               width="200"
               height="84"
               alt="Stanley Stella"
@@ -55,7 +55,7 @@ export default function page() {
             target="_blank"
           >
             <Image
-              src="/Westford_Logo.png"
+              src="/Westford.svg"
               width="200"
               height="84"
               alt="Westford Mills"
