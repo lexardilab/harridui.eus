@@ -27,7 +27,7 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="/">
+          <Link href="https://flexfit.com/2024-catalog/">
             <Image
               src="/Flexfit_Logo.png"
               width="200"
