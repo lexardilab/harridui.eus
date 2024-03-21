@@ -22,7 +22,7 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="/">
+          <Link href="/" target="_blank">
             <Image src="/Bc_Logo.png" width="130" height="20" alt="Bc" />
           </Link>
         </div>
@@ -37,7 +37,10 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="/">
+          <Link
+            href="https://beechfield.com/es/products/search"
+            target="_blank"
+          >
             <Image
               src="/Beechfield_Logo.png"
               width="200"
@@ -47,13 +50,71 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link href="/">
+          <Link
+            href="https://westfordmill.com/es/products/search"
+            target="_blank"
+          >
             <Image
               src="/Westford_Logo.png"
               width="200"
               height="84"
               alt="Westford Mills"
             />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://www.nativespirit-ns.com/es/nuestros-productos.html"
+            target="_blank"
+          >
+            <Image
+              src="/Native-Spirit.png"
+              width="200"
+              height="84"
+              alt="Native Spirit"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link href="https://bagbase.com/es/products/search" target="_blank">
+            <Image src="/BagBase.svg" width="200" height="84" alt="Bag Base" />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://catalogs.bellacanvas.com/The-2024-Collection/1/#"
+            target="_blank"
+          >
+            <Image
+              src="/bellacanvas.svg"
+              width="200"
+              height="84"
+              alt="Bella+Canvas"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://www.karibanbrands.com/es/nuestros-productos.html"
+            target="_blank"
+          >
+            <Image src="/kariban.svg" width="200" height="84" alt="Kariban" />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://www.karibanbrands.com/es/nuestros-productos.html"
+            target="_blank"
+          >
+            <Image src="/gildan.png" width="200" height="84" alt="Gildan" />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://stamina-shop.com/icatalog/urlCatSta?lang=es"
+            target="_blank"
+          >
+            <Image src="/stamina.svg" width="200" height="84" alt="Stamina" />
           </Link>
         </div>
       </div>
