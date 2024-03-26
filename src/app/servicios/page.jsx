@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 export default function page() {
   return (
@@ -16,19 +15,7 @@ export default function page() {
             <h1 className="text-4xl font-semibold text-center">
               Serigrafía Textil
             </h1>
-            <p className="pt-12 text-xl font-semibold">Materiales</p>
-            <p className="px-12 pt-6 text-lg font-normal leading-8">
-              En Harridui trabajamos con las principales marcas de prendas
-              textiles del mercado (
-              <strong>
-                Native Spirit, Stanley Stella, B&C, Roly, Gildan, Westford Mill,
-                Atlantis, etc.
-              </strong>
-              ).
-              <br /> La serigrafía manual es una técnica artesanal y durante el
-              proceso pueden producirse pequeñas erratas, debido a esto, los
-              textiles siempre los proveemos nosotros.
-            </p>
+
             <p className="pt-12 text-xl font-semibold">Pedido Mínimo</p>
             <p className="px-12 pt-6 text-lg font-normal leading-8">
               En el caso de la serigrafía textil, el pedido mínimo es de 10

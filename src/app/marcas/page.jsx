@@ -102,10 +102,7 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link
-            href="https://www.karibanbrands.com/es/nuestros-productos.html"
-            target="_blank"
-          >
+          <Link href="/" target="_blank">
             <Image src="/gildan.png" width="200" height="84" alt="Gildan" />
           </Link>
         </div>
