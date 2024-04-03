@@ -20,7 +20,7 @@ export default function Serigrafia() {
           <AccordionDetails className="bg-[#eae9b9]">
             <p className="text-lg font-normal leading-8">
               En Harridui trabajamos con las principales marcas de prendas
-              textiles del mercado
+              textiles del mercado &nbsp;
               <strong>
                 (Native Spirit, Stanley Stella, B&C, Gildan, Westford Mill,
                 Atlantis, etc.)
