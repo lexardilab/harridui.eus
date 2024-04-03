@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="w-full bg-[#eae9b9] items-center justify-between flex px-4">
+    <div className="w-full bg-[#eae9b9] items-center justify-between flex px-8">
       <Link href="/">
-        <Image src="/icon_logo.png" width="100" height="100" alt="" />
+        <Image className="py-6" src="/logo.svg" width="40" height="40" alt="" />
       </Link>
       <Link href="mailto:harridui.studio@gmail.com">
         <h1 className="font-black lg:text-3xl sm:text-xl">

@@ -7,7 +7,7 @@ export default function page() {
       <div className="flex justify-center pt-6 pb-12">
         <h1 className="text-4xl font-black">Nuestras marcas</h1>
       </div>
-      <div className="grid gap-4 py-4 lg:grid-cols-4 md:grid-cols-4">
+      <div className="grid grid-cols-4 gap-4 py-4">
         <div className="flex items-center justify-center">
           <Link
             href="https://online.flippingbook.com/view/865225458/"

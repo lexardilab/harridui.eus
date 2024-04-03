@@ -2,12 +2,15 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import { Add } from "@mui/icons-material";
+import Link from "next/link";
 
-export default function Serigrafia() {
+export default function Papel() {
   return (
     <>
-      <div className=" bg-[#eae9b9] justify-left px-12 h-screen">
-        <h1 className="text-4xl font-semibold text-left">Serigrafía Textil</h1>
+      <div className=" bg-[#eae9b9] justify-left px-12 pb-12 h-screen">
+        <h1 className="text-4xl font-semibold text-left">
+          Serigrafía sobre papel
+        </h1>
         <Accordion style={{ boxShadow: "none" }}>
           <AccordionSummary
             expandIcon={<Add sx={{ color: "black" }} />}
@@ -19,15 +22,13 @@ export default function Serigrafia() {
           </AccordionSummary>
           <AccordionDetails className="bg-[#eae9b9]">
             <p className="text-lg font-normal leading-8">
-              En Harridui trabajamos con las principales marcas de prendas
-              textiles del mercado
-              <strong>
-                (Native Spirit, Stanley Stella, B&C, Gildan, Westford Mill,
-                Atlantis, etc.)
-              </strong>
-              . La serigrafía manual es una técnica artesanal y durante el
-              proceso pueden producirse pequeñas erratas, debido a esto, los
-              textiles siempre los proveemos nosotros.
+              Para realizar las impresiones en papel usamos el papel
+              <strong> G.F Smith Colorplan</strong> en gramaje de 270 GSM. Vea
+              los colores de papel disponibles
+              <Link href="/ColoresPapel">
+                <strong> aqui</strong>
+              </Link>
+              .
             </p>
           </AccordionDetails>
         </Accordion>
@@ -42,11 +43,8 @@ export default function Serigrafia() {
           </AccordionSummary>
           <AccordionDetails className="bg-[#eae9b9]">
             <p className="text-lg font-normal leading-8">
-              En el caso de la serigrafía textil, el pedido mínimo es de 10
-              unidades por diseño. En este caso, se pueden combinar tallas o
-              diferentes productos para llegar a <strong>10 unidades</strong>,
-              pero siempre que el diseño, color y tamaño a estampar sea el mismo
-              en todos los productos.
+              El pedido mínimo es de <strong>25 unidades</strong> por
+              referencia.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -61,9 +59,10 @@ export default function Serigrafia() {
           </AccordionSummary>
           <AccordionDetails className="bg-[#eae9b9]">
             <p className="text-lg font-normal leading-8">
-              Disponemos de un pulpo de serigrafía que nos permite estampar 4
-              colores. Tenemos un catálogo de colores ya estandarizado y además,
-              podemos producir tu color Pantone.
+              El papel puede ser personalizado con los{" "}
+              <strong> colores necesarios por el cliente</strong>, como si son
+              10 ;). Tenemos un catálogo de colores ya estandarizado y además,
+              <strong> podemos producir tu color Pantone.</strong>
             </p>
           </AccordionDetails>
         </Accordion>
@@ -79,8 +78,8 @@ export default function Serigrafia() {
           <AccordionDetails className="bg-[#eae9b9]">
             <p className="text-lg font-normal leading-8">
               Desde la confirmación del pedido de venta a la entrega de la
-              prenda personalizada suelen pasar <nbsp />
-              <strong>entre 2-3 semanas</strong>. Dependiendo del momento del
+              prenda personalizada suelen pasar <nbsp />{" "}
+              <strong> entre 2-3 semanas</strong>. Dependiendo del momento del
               año (navidad, verano, etc.) estos plazos pueden ser diferentes,
               pero se informa en todo momento al cliente antes de confirmar el
               pedido de venta.
