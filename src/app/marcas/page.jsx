@@ -21,45 +21,22 @@ export default function page() {
             />
           </Link>
         </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://www.karibanbrands.com/es/nuestros-productos.html"
+            target="_blank"
+          >
+            <Image src="/kariban.svg" width="200" height="84" alt="Kariban" />
+          </Link>
+        </div>
         <div className="flex items-center justify-center">
           <Link href="https://www.bc-collection.eu/es/catalogo" target="_blank">
             <Image src="/Bc_Logo.png" width="130" height="20" alt="Bc" />
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="https://flexfit.com/2024-catalog/">
-            <Image
-              src="/Flexfit_Logo.png"
-              width="200"
-              height="84"
-              alt="Flexfit"
-            />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center">
-          <Link
-            href="https://beechfield.com/es/products/search"
-            target="_blank"
-          >
-            <Image
-              src="/beechfield.svg"
-              width="200"
-              height="84"
-              alt="Beechfield"
-            />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center pt-12">
-          <Link
-            href="https://westfordmill.com/es/products/search"
-            target="_blank"
-          >
-            <Image
-              src="/westford.svg"
-              width="200"
-              height="84"
-              alt="Westford Mills"
-            />
+          <Link href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/">
+            <Image src="/Sols.svg" width="200" height="84" alt="Sols" />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
@@ -76,11 +53,6 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link href="https://bagbase.com/es/products/search" target="_blank">
-            <Image src="/BagBase.svg" width="200" height="84" alt="Bag Base" />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center pt-12">
           <Link
             href="https://catalogs.bellacanvas.com/The-2024-Collection/1/#"
             target="_blank"
@@ -94,24 +66,51 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link
-            href="https://www.karibanbrands.com/es/nuestros-productos.html"
-            target="_blank"
-          >
-            <Image src="/kariban.svg" width="200" height="84" alt="Kariban" />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center pt-12">
           <Link href="/" target="_blank">
             <Image src="/gildan.svg" width="200" height="84" alt="Gildan" />
           </Link>
         </div>
-        <div className="flex items-center justify-center pt-12">
+
+        <div className="flex items-center justify-center">
           <Link
-            href="https://stamina-shop.com/icatalog/urlCatSta?lang=es"
+            href="https://beechfield.com/es/products/search"
             target="_blank"
           >
-            <Image src="/stamina.svg" width="200" height="84" alt="Stamina" />
+            <Image
+              src="/beechfield.svg"
+              width="200"
+              height="84"
+              alt="Beechfield"
+            />
+          </Link>
+        </div>
+
+        <div className="flex items-center justify-center pt-12">
+          <Link href="https://bagbase.com/es/products/search" target="_blank">
+            <Image src="/BagBase.svg" width="200" height="84" alt="Bag Base" />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://westfordmill.com/es/products/search"
+            target="_blank"
+          >
+            <Image
+              src="/westford.svg"
+              width="200"
+              height="84"
+              alt="Westford Mills"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="https://flexfit.com/2024-catalog/">
+            <Image
+              src="/Flexfit_Logo.png"
+              width="200"
+              height="84"
+              alt="Flexfit"
+            />
           </Link>
         </div>
       </div>
