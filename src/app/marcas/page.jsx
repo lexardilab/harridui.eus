@@ -7,7 +7,7 @@ export default function page() {
       <div className="flex justify-center pt-6 pb-12">
         <h1 className="text-4xl font-black">Nuestras marcas</h1>
       </div>
-      <div className="grid grid-cols-4 gap-4 py-4 ">
+      <div className="grid gap-4 py-4 lg:grid-cols-4 md:grid-cols-4">
         <div className="flex items-center justify-center">
           <Link
             href="https://online.flippingbook.com/view/865225458/"
@@ -68,7 +68,7 @@ export default function page() {
             target="_blank"
           >
             <Image
-              src="/Native-Spirit.png"
+              src="/NativeSpirit.svg"
               width="200"
               height="84"
               alt="Native Spirit"
@@ -103,7 +103,7 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="/" target="_blank">
-            <Image src="/gildan.png" width="200" height="84" alt="Gildan" />
+            <Image src="/gildan.svg" width="200" height="84" alt="Gildan" />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">

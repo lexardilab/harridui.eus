@@ -8,7 +8,9 @@ export default function Navbar() {
         <Image src="/icon_logo.png" width="100" height="100" alt="" />
       </Link>
       <Link href="mailto:harridui.studio@gmail.com">
-        <h1 className="text-2xl font-black sm:text-4xl">kaixo@harridui.com</h1>
+        <h1 className="font-black lg:text-3xl sm:text-xl">
+          kaixo@harridui.com
+        </h1>
       </Link>
     </div>
   );
