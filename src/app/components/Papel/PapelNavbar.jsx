@@ -1,0 +1,29 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function PapelNavbar() {
+  return (
+    <>
+      <div className="flex items-center justify-center w-full">
+        <Link href="/">
+          <Image
+            className="py-6"
+            src="/logo_harridui.png"
+            width="250"
+            height="40"
+            alt=""
+          />
+        </Link>
+      </div>
+      <div className="flex items-center justify-center py-6">
+        <h1 className="px-4 text-sm font-medium uppercase">Serigrafía |</h1>
+        <Link href="/servicios">
+          <h1 className="px-4 text-sm font-medium uppercase">Servicios |</h1>
+        </Link>
+        <h1 className="px-4 text-sm font-medium uppercase">Marcas |</h1>
+        <h1 className="px-4 text-sm font-medium uppercase">Tienda |</h1>
+        <h1 className="px-4 text-sm font-medium uppercase">Presupuesto |</h1>
+      </div>
+    </>
+  );
+}
