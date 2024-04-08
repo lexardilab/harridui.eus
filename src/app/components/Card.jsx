@@ -2,16 +2,19 @@ import Link from "next/link";
 
 function Card({ product }) {
   return (
-    <div className="grid grid-cols-4 ">
-      <Link href={`/details/${product?.slug}`}>
-        <div className="transition-transform duration-300 cursor-pointer hover:scale-105">
-          <h1 className="pb-4 text-2xl font-semibold text-black">
-            {product?.name}
-          </h1>
+    <Link href={`/details/${product?.slug}`}>
+      <div className="relative max-w-sm cursor-pointer">
+        <div className="relative overflow-hidden transition-transform duration-300 h-72 aspect-ratio-1 hover:scale-105">
+          <img src={product?.image} layout="fill" objectfit="cover" alt="art" />
         </div>
-        <img src={product?.image} layout="fill" objectfit="cover" alt="art" />
-      </Link>
-    </div>
+
+        {/* Sticky Price Tag - Outside the Card Container */}
+        <div className="flex items-center justify-between">
+          <span className="text-xl font-semibold">{product?.name}</span>
+          <span className="text-xl font-semibold ">{product?.price} €</span>
+        </div>
+      </div>
+    </Link>
   );
 }
 

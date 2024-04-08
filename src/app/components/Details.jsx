@@ -50,7 +50,7 @@ function Details({ product }) {
           <div className="mt-6">
             <button
               onClick={handleAddToCart}
-              className="px-6 py-3 text-white bg-black rounded-md"
+              className="px-6 py-3 text-white bg-black "
             >
               Add to Cart
             </button>
