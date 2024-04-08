@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Card from "../components/Card";
 import { getAllProducts } from "../../../sanity/product-util";
-import Header from "../components/Header";
 
 function Products() {
   const [data, setData] = useState([]);
@@ -79,7 +78,6 @@ function Products() {
 
   return (
     <div>
-      <Header />
       <div className="flex flex-col p-10 md:flex-row">
         {/* Filters */}
 
