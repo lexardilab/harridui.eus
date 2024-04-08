@@ -31,7 +31,7 @@ export default function Navbar() {
             alt="Logo Harridui"
           />
         </div>
-        <div className="flex flex-col pl-2 ">
+        <div className="flex flex-col ">
           <Link
             href="/"
             onClick={() =>
