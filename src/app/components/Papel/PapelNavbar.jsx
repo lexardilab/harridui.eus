@@ -20,9 +20,13 @@ export default function RootLayout({ children }) {
         <Link href="/servicios">
           <h1 className="px-4 text-sm font-medium uppercase">Servicios |</h1>
         </Link>
-        <h1 className="px-4 text-sm font-medium uppercase">Marcas |</h1>
+        <Link href="/marcas">
+          <h1 className="px-4 text-sm font-medium uppercase">Marcas |</h1>
+        </Link>
         <h1 className="px-4 text-sm font-medium uppercase">Tienda |</h1>
-        <h1 className="px-4 text-sm font-medium uppercase">Presupuesto |</h1>
+        <Link href="/presupuesto">
+          <h1 className="px-4 text-sm font-medium uppercase">Presupuesto |</h1>
+        </Link>
       </div>
     </>
   );
