@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Harridui",
+  title: "Harridui | Serigrafía",
   description: "Harridui | Taller de serigrafía",
 };
 

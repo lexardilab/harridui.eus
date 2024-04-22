@@ -1,27 +1,69 @@
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import { Add } from "@mui/icons-material";
+"use client";
+import * as React from "react";
+import { styled } from "@mui/material/styles";
+import MuiAccordion from "@mui/material/Accordion";
+import MuiAccordionSummary from "@mui/material/AccordionSummary";
+import MuiAccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
 import Link from "next/link";
+import { Add } from "@mui/icons-material";
+import Image from "next/image";
 
-export default function Papel() {
+const Accordion = styled((props) => (
+  <MuiAccordion disableGutters elevation={0} square {...props} />
+))(({ theme }) => ({
+  border: `opx solid ${theme.palette.divider}`,
+  "&:not(:last-child)": {
+    borderBottom: 0,
+  },
+  "&::before": {
+    display: "none",
+  },
+}));
+
+const AccordionSummary = styled((props) => (
+  <MuiAccordionSummary
+    expandIcon={<Add sx={{ color: "black" }} />}
+    {...props}
+  />
+))(({ theme }) => ({
+  flexDirection: "row-reverse",
+  "& .MuiAccordionSummary-expandIconAdd.Mui-expanded": {
+    transform: "rotate(90deg)",
+  },
+  "& .MuiAccordionSummary-content": {
+    marginLeft: theme.spacing(1),
+  },
+}));
+
+const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
+  padding: theme.spacing(2),
+}));
+
+export default function CustomizedAccordions() {
+  const [expanded, setExpanded] = React.useState("panel1");
+
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpanded(newExpanded ? panel : false);
+  };
+
   return (
-    <>
-      <div className=" bg-[#eae9b9] justify-left px-12 pb-12 h-screen">
-        <h1 className="text-4xl font-semibold text-left">
-          Serigrafía sobre papel
-        </h1>
-        <Accordion style={{ boxShadow: "none" }}>
-          <AccordionSummary
-            expandIcon={<Add sx={{ color: "black" }} />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-            className="bg-[#eae9b9] pt-12"
-          >
-            <p className="text-xl font-semibold ">Materiales</p>
-          </AccordionSummary>
-          <AccordionDetails className="bg-[#eae9b9]">
-            <p className="text-lg font-normal leading-8">
+    <div>
+      <Accordion
+        expanded={expanded === "panel1"}
+        onChange={handleChange("panel1")}
+        className="bg-[#eae9b9]"
+      >
+        <AccordionSummary
+          aria-controls="panel1d-content"
+          id="panel1d-header"
+          className="bg-[#eae9b9] pt-12 border-b-2"
+        >
+          <Typography className="text-xl font-semibold ">Materiales</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <p className="text-lg font-normal leading-8 bg-[#eae9b9]">
               Para realizar las impresiones en papel usamos el papel
               <strong> G.F Smith Colorplan</strong> en gramaje de 270 GSM. Vea
               los colores de papel disponibles
@@ -30,52 +72,61 @@ export default function Papel() {
               </Link>
               .
             </p>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion style={{ boxShadow: "none" }}>
-          <AccordionSummary
-            expandIcon={<Add sx={{ color: "black" }} />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-            className="bg-[#eae9b9]"
-          >
-            <p className="text-xl font-semibold ">Pedido Mínimo</p>
-          </AccordionSummary>
-          <AccordionDetails className="bg-[#eae9b9]">
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        expanded={expanded === "panel2"}
+        onChange={handleChange("panel2")}
+        className="bg-[#eae9b9]"
+      >
+        <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
+          <Typography className="bg-[#eae9b9] text-xl font-semibold">
+            Pedido Mínimo
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
             <p className="text-lg font-normal leading-8">
               El pedido mínimo es de <strong>25 unidades</strong> por
               referencia.
             </p>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion style={{ boxShadow: "none" }}>
-          <AccordionSummary
-            expandIcon={<Add sx={{ color: "black" }} />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-            className="bg-[#eae9b9]"
-          >
-            <p className="text-xl font-semibold ">Personalización</p>
-          </AccordionSummary>
-          <AccordionDetails className="bg-[#eae9b9]">
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        expanded={expanded === "panel3"}
+        onChange={handleChange("panel3")}
+        className="bg-[#eae9b9]"
+      >
+        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+          <Typography className="bg-[#eae9b9] text-xl font-semibold">
+            Personalización
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
             <p className="text-lg font-normal leading-8">
               El papel puede ser personalizado con los{" "}
               <strong> colores necesarios por el cliente</strong>, como si son
               10 ;). Tenemos un catálogo de colores ya estandarizado y además,
               <strong> podemos producir tu color Pantone.</strong>
             </p>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion style={{ boxShadow: "none" }}>
-          <AccordionSummary
-            expandIcon={<Add sx={{ color: "black" }} />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-            className="bg-[#eae9b9]"
-          >
-            <p className="text-xl font-semibold ">Plazos de entrega</p>
-          </AccordionSummary>
-          <AccordionDetails className="bg-[#eae9b9]">
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        expanded={expanded === "panel4"}
+        onChange={handleChange("panel4")}
+        className="bg-[#eae9b9]"
+      >
+        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+          <Typography className="bg-[#eae9b9] text-xl font-semibold">
+            Plazos de entrega
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
             <p className="text-lg font-normal leading-8">
               Desde la confirmación del pedido de venta a la entrega de la
               prenda personalizada suelen pasar <nbsp />{" "}
@@ -84,9 +135,9 @@ export default function Papel() {
               pero se informa en todo momento al cliente antes de confirmar el
               pedido de venta.
             </p>
-          </AccordionDetails>
-        </Accordion>
-      </div>
-    </>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
   );
 }
