@@ -1,4 +1,4 @@
-import PapelNavbar from "../components/Papel/PapelNavbar";
+import PapelNavbar from "../components/PapelUtils/PapelNavbar";
 import "../globals.css";
 export const metadata = {
   title: "Harridui | Tipos de papel",
