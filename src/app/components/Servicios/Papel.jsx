@@ -7,7 +7,6 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import { Add } from "@mui/icons-material";
-import Image from "next/image";
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -49,6 +48,7 @@ export default function CustomizedAccordions() {
 
   return (
     <div>
+      <h1 className="text-4xl font-semibold text-left">Serigrafía Papel</h1>
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
@@ -67,7 +67,7 @@ export default function CustomizedAccordions() {
               Para realizar las impresiones en papel usamos el papel
               <strong> G.F Smith Colorplan</strong> en gramaje de 270 GSM. Vea
               los colores de papel disponibles
-              <Link href="/ColoresPapel">
+              <Link href="/papel">
                 <strong> aqui</strong>
               </Link>
               .
@@ -129,7 +129,7 @@ export default function CustomizedAccordions() {
           <Typography>
             <p className="text-lg font-normal leading-8">
               Desde la confirmación del pedido de venta a la entrega de la
-              prenda personalizada suelen pasar <nbsp />{" "}
+              prenda personalizada suelen pasar <nbsp />
               <strong> entre 2-3 semanas</strong>. Dependiendo del momento del
               año (navidad, verano, etc.) estos plazos pueden ser diferentes,
               pero se informa en todo momento al cliente antes de confirmar el

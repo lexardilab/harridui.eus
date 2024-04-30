@@ -6,7 +6,7 @@ import { Add } from "@mui/icons-material";
 export default function Serigrafia() {
   return (
     <>
-      <div className=" bg-[#eae9b9] justify-left px-12">
+      <div className="px-12  justify-left">
         <h1 className="text-4xl font-semibold text-left">Serigrafía Textil</h1>
         <Accordion style={{ boxShadow: "none" }}>
           <AccordionSummary
