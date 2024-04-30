@@ -1,4 +1,6 @@
 import "../globals.css";
+import PapelNavbar from "../components/PapelUtils/PapelNavbar";
+
 export const metadata = {
   title: "Harridui | Presupuesto",
   description: "Harridui | Taller de serigrafía",
@@ -7,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        <PapelNavbar />
+        {children}
+      </body>
     </html>
   );
 }
