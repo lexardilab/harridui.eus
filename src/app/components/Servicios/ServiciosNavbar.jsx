@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function RootLayout({ children }) {
   return (
     <>
-      <div className="flex items-center justify-center w-full bg-purple-200">
+      <div className="flex items-center justify-center w-full ">
         <Link href="/">
           <Image
             className="py-6"
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
           />
         </Link>
       </div>
-      <div className="flex items-center justify-center py-6 bg-purple-200">
+      <div className="flex items-center justify-center py-6 ">
         <h1 className="px-4 text-sm font-medium uppercase">Serigrafía |</h1>
         <Link href="/servicios">
           <h1 className="px-4 text-sm font-medium uppercase">Servicios |</h1>
