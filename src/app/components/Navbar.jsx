@@ -18,9 +18,12 @@ export default function Navbar() {
       </div>
       
       <div className="flex">
-        <h1 className="font-medium px-2 text-xl">Marcas</h1>
-        <h1 className="font-medium px-2 text-xl">Servicios</h1>
-        <h1 className="font-medium px-2 text-xl">Presupuesto</h1>
+        <Link href="/marcas">
+        <h1 className="font-medium px-2 text-xl">Marcas</h1></Link>
+        <Link href="/servicios">
+        <h1 className="font-medium px-2 text-xl">Servicios</h1></Link>
+        <Link href="/presupuesto">
+        <h1 className="font-medium px-2 text-xl">Presupuesto</h1></Link>
       </div>
     </nav>
   );
