@@ -1,5 +1,5 @@
 import "../globals.css";
-import ServiciosNavbar from "../components/Servicios/ServiciosNavbar";
+import Navbar from "../components/Navbar";
 export const metadata = {
   title: "Harridui | Servicios",
   description: "Harridui | Taller de serigrafía",
@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <ServiciosNavbar />
+        <Navbar />
         {children}
       </body>
     </html>

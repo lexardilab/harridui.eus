@@ -17,7 +17,11 @@ export default function Navbar() {
         </Link>
       </div>
       
-      
+      <div className="flex">
+        <h1 className="font-medium px-2 text-xl">Marcas</h1>
+        <h1 className="font-medium px-2 text-xl">Servicios</h1>
+        <h1 className="font-medium px-2 text-xl">Presupuesto</h1>
+      </div>
     </nav>
   );
 }

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <main className="bg-[#eae9b9] h-screen">
-      <div className="flex justify-start px-12 pt-6 pb-12">
+      <div className="flex justify-start px-12 pt-12 pb-12">
         <h1 className="text-4xl font-black border-b border-black">
           Nuestras marcas
         </h1>
