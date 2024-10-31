@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <main className="bg-[#eae9b9] h-screen">
+    <main className="bg-[#eae9b9] pb-12">
       <div className="flex justify-start px-12 pt-12 pb-12">
         <h1 className="text-4xl font-black border-b border-black">
           Nuestras marcas
@@ -37,7 +37,9 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/">
+          <Link 
+          href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/"
+          target="_blank">
             <Image src="/Sols.svg" width="200" height="84" alt="Sols" />
           </Link>
         </div>
@@ -110,6 +112,59 @@ export default function page() {
             <Image
               src="/Flexfit_Logo.png"
               width="200"
+              height="84"
+              alt="Flexfit"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="https://atlantisheadwear.com/flipbook/Atlantis_Headwear_General_Catalogue_2024/">
+            <Image
+              src="/Atlantis.svg"
+              width="200"
+              height="84"
+              alt="Flexfit"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="https://en.halfar.com/media/c5/50/23/1704354908/HAL231123-Kat%2024-GB.pdf"
+          target="_blank">
+            <Image
+              src="/Halfar.svg"
+              width="200"
+              height="84"
+              alt="Flexfit"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="">
+            <Image
+              src="/myrtleBeach.svg"
+              width="100"
+              height="84"
+              alt="Flexfit"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="https://beechfieldbrands.com/welcome-quadra"
+          target="_blank">
+            <Image
+              src="/quadra.svg"
+              width="200"
+              height="84"
+              alt="Flexfit"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="https://www.russelleurope.com/s/catalogue?language=es"
+          target="_blank">
+            <Image
+              src="/russell.svg"
+              width="100"
               height="84"
               alt="Flexfit"
             />
