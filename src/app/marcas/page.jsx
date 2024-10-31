@@ -10,7 +10,7 @@ export default function page() {
         </h1>
       </div>
       <div className="grid grid-cols-4 gap-4 py-4">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link
             href="https://online.flippingbook.com/view/865225458/"
             target="_blank"
@@ -19,7 +19,7 @@ export default function page() {
               src="/StanleyStella_Logo.svg"
               width="200"
               height="84"
-              alt="Stanley Stella"
+              alt="Harridui Serigrafía | Stanley Stella"
             />
           </Link>
         </div>
@@ -28,19 +28,19 @@ export default function page() {
             href="https://www.karibanbrands.com/es/nuestros-productos.html"
             target="_blank"
           >
-            <Image src="/kariban.svg" width="200" height="84" alt="Kariban" />
+            <Image src="/kariban.svg" width="200" height="84" alt="Harridui Serigrafía | Kariban" />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="https://www.bc-collection.eu/es/catalogo" target="_blank">
-            <Image src="/Bc_Logo.png" width="130" height="20" alt="Bc" />
+            <Image src="/Bc_Logo.png" width="110" height="20" alt="Harridui Serigrafía | B&c" />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link 
           href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/"
           target="_blank">
-            <Image src="/Sols.svg" width="200" height="84" alt="Sols" />
+            <Image src="/Sols.svg" width="200" height="84" alt="Harridui Serigrafía | Sols" />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
@@ -52,7 +52,7 @@ export default function page() {
               src="/NativeSpirit.svg"
               width="200"
               height="84"
-              alt="Native Spirit"
+              alt="Harridui Serigrafía | Native Spirit"
             />
           </Link>
         </div>
@@ -65,8 +65,13 @@ export default function page() {
               src="/bellacanvas.svg"
               width="200"
               height="84"
-              alt="Bella+Canvas"
+              alt="Harridui Serigrafía | Bella+Canvas"
             />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link href="/" target="_blank">
+            <Image src="/fruit.svg" width="200" height="84" alt="Harridui Serigrafía | Fruit" />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
@@ -74,8 +79,12 @@ export default function page() {
             <Image src="/gildan.svg" width="200" height="84" alt="Gildan" />
           </Link>
         </div>
-
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-20">
+          <Link href="/" target="_blank">
+            <Image src="/mantis.svg" width="200" height="84" alt="Harridui Serigrafía | Mantis" />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-20">
           <Link
             href="https://beechfield.com/es/products/search"
             target="_blank"
@@ -84,14 +93,25 @@ export default function page() {
               src="/beechfield.svg"
               width="200"
               height="84"
-              alt="Beechfield"
+              alt="Harridui Serigrafía | Beechfield"
             />
           </Link>
         </div>
 
-        <div className="flex items-center justify-center pt-12">
+        <div className="flex items-center justify-center pt-20">
           <Link href="https://bagbase.com/es/products/search" target="_blank">
             <Image src="/BagBase.svg" width="200" height="84" alt="Bag Base" />
+          </Link>
+        </div>
+        
+        <div className="flex items-center justify-center pt-16">
+          <Link href="https://flexfit.com/2024-catalog/">
+            <Image
+              src="/Flexfit_Logo.png"
+              width="200"
+              height="84"
+              alt="Harridui Serigrafía | Flexfit"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
@@ -101,72 +121,62 @@ export default function page() {
           >
             <Image
               src="/westford.svg"
-              width="200"
+              width="150"
               height="84"
-              alt="Westford Mills"
+              alt="Harridui Serigrafía | Westford Mills"
             />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
-          <Link href="https://flexfit.com/2024-catalog/">
-            <Image
-              src="/Flexfit_Logo.png"
-              width="200"
-              height="84"
-              alt="Flexfit"
-            />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="https://atlantisheadwear.com/flipbook/Atlantis_Headwear_General_Catalogue_2024/">
             <Image
               src="/Atlantis.svg"
-              width="200"
+              width="150"
               height="84"
-              alt="Flexfit"
+              alt="Harridui Serigrafía | Atlantis"
             />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="https://en.halfar.com/media/c5/50/23/1704354908/HAL231123-Kat%2024-GB.pdf"
           target="_blank">
             <Image
               src="/Halfar.svg"
-              width="200"
+              width="170"
               height="84"
-              alt="Flexfit"
+              alt="Harridui Serigrafía | Halfar"
             />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="">
             <Image
               src="/myrtleBeach.svg"
               width="100"
               height="84"
-              alt="Flexfit"
+              alt="Harridui Serigrafía | Myrtle Beach"
             />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="https://beechfieldbrands.com/welcome-quadra"
           target="_blank">
             <Image
               src="/quadra.svg"
               width="200"
               height="84"
-              alt="Flexfit"
+              alt="Harridui Serigrafía | Quadra"
             />
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-12">
           <Link href="https://www.russelleurope.com/s/catalogue?language=es"
           target="_blank">
             <Image
               src="/russell.svg"
               width="100"
               height="84"
-              alt="Flexfit"
+              alt="Harridui Serigrafía | Russell"
             />
           </Link>
         </div>
