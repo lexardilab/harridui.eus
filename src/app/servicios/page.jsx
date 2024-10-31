@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Papel from "../components/Servicios/Papel";
-import Serigrafia from "../components/Servicios/Serigrafia";
 
 export default function page() {
   return (
