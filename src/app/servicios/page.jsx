@@ -6,7 +6,6 @@ export default function page() {
         <h1 className="text-6xl font-black text-center">
           Ofrecemos la posibilidad de personalizar muuuchas cosas :)
         </h1>
-        <h2>Prueba</h2>
       </div>
     </>
   );
