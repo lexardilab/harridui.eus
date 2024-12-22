@@ -173,7 +173,7 @@ export default function page() {
           <Link href="https://www.russelleurope.com/s/catalogue?language=es"
           target="_blank">
             <Image
-              src="/russell.svg"
+              src="/quadra.svg"
               width="100"
               height="84"
               alt="Harridui Serigrafía | Russell"
