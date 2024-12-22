@@ -174,7 +174,7 @@ export default function page() {
           target="_blank">
             <Image
               src="/russell.svg"
-              width="100"
+              width="200"
               height="84"
               alt="Harridui Serigrafía | Russell"
             />
