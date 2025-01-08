@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ColoresPapel() {
   return (
     <div className="bg-[#3c3147] ">
-      <div className="grid grid-cols-6 gap-6 px-24 pt-6 pb-6">
+      <div className="grid grid-cols-6 gap-6 px-24 pt-6 pb-6 justify-items-center">
         <div>
           <Image
             src="/Papel/adriatic.png"
