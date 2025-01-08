@@ -37,9 +37,9 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link 
-          href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/"
-          target="_blank">
+          <Link
+            href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/"
+            target="_blank">
             <Image src="/Sols.svg" width="200" height="84" alt="Harridui Serigrafía | Sols" />
           </Link>
         </div>
@@ -103,7 +103,7 @@ export default function page() {
             <Image src="/BagBase.svg" width="200" height="84" alt="Bag Base" />
           </Link>
         </div>
-        
+
         <div className="flex items-center justify-center pt-16">
           <Link href="https://flexfit.com/2024-catalog/">
             <Image
@@ -139,7 +139,7 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="https://en.halfar.com/media/c5/50/23/1704354908/HAL231123-Kat%2024-GB.pdf"
-          target="_blank">
+            target="_blank">
             <Image
               src="/Halfar.svg"
               width="170"
@@ -160,7 +160,7 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="https://beechfieldbrands.com/welcome-quadra"
-          target="_blank">
+            target="_blank">
             <Image
               src="/quadra.svg"
               width="200"
@@ -171,7 +171,7 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="https://www.russelleurope.com/s/catalogue?language=es"
-          target="_blank">
+            target="_blank">
             <Image
               src="/russell_logo.svg"
               width="100"
