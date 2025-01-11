@@ -3,15 +3,15 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className="h-screen bg-[#eae9b9]">
-      <div className="grid grid-cols-2 pt-12">
-        <div className="pl-8">
-          <h1 className="text-4xl font-semibold">Contáctanos</h1>
+      <div className="grid pt-12 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
+        <div className="sm:pl-4 lg:pl-8">
+          <h1 className="font-semibold sm:text-2xl lg:text-4xl sm:underline">Contáctanos</h1>
           <Link href="mailto:harridui.studio@gmail.com">
-            <p className="pt-12 text-4xl font-semibold">kaixo@harridui.com </p>
+            <p className="font-semibold sm:pt-4 lg:pt-12 sm:text-2xl lg:text-4xl">kaixo@harridui.com </p>
           </Link>
-          <p className="pt-2 text-4xl font-semibold">688 84 32 13</p>
+          <p className="pt-2 font-semibold lg:text-4xl sm:text-2xl">688 84 32 13</p>
         </div>
-        <div className="pr-12 ">
+        <div className="lg:pr-12 sm:px-4 sm:pt-6">
           <h1 className="font-semibold text-2xl/10 ">
             Te recomendamos echar un vistazo a la página de
             <Link href="/servicios">

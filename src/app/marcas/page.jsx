@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function page() {
   return (
     <main className="bg-[#eae9b9] pb-12">
-      <div className="flex justify-start px-12 pt-12 pb-12">
+      <div className="flex justify-start px-12 pt-12 pb-12 sm:px-4 ">
         <h1 className="text-4xl font-black border-b border-black">
           Nuestras marcas
         </h1>
       </div>
-      <div className="grid grid-cols-4 gap-4 py-4">
+      <div className="grid gap-4 py-4 lg:grid-cols-4 sm:grid-cols-1">
         <div className="flex items-center justify-center pt-12">
           <Link
             href="https://online.flippingbook.com/view/865225458/"
