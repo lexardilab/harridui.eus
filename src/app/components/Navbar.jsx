@@ -9,8 +9,8 @@ export default function Navbar() {
         <Link href="/">
           <Image
             className="py-6"
-            src="/logo.svg"
-            width="40"
+            src="/Logo_Harridui_1.svg"
+            width="180"
             height="40"
             alt=""
           />
@@ -19,11 +19,11 @@ export default function Navbar() {
 
       <div className="flex">
         <Link href="/marcas">
-          <h1 className="px-4 text-xl font-medium">Marcas</h1></Link>
+          <h1 className="px-4 text-base font-medium">Marcas</h1></Link>
         <Link href="/servicios">
-          <h1 className="pr-4 text-xl font-medium">Servicios</h1></Link>
+          <h1 className="pr-4 text-base font-medium">Servicios</h1></Link>
         <Link href="/presupuesto">
-          <h1 className="text-xl font-medium ">Presupuesto</h1></Link>
+          <h1 className="text-base font-medium ">Presupuesto</h1></Link>
       </div>
     </nav>
   );
