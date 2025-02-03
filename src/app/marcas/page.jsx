@@ -28,19 +28,35 @@ export default function page() {
             href="https://www.karibanbrands.com/es/nuestros-productos.html"
             target="_blank"
           >
-            <Image src="/kariban.svg" width="200" height="84" alt="Harridui Serigrafía | Kariban" />
+            <Image
+              src="/kariban.svg"
+              width="200"
+              height="84"
+              alt="Harridui Serigrafía | Kariban"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="https://www.bc-collection.eu/es/catalogo" target="_blank">
-            <Image src="/Bc_Logo.png" width="110" height="20" alt="Harridui Serigrafía | B&c" />
+            <Image
+              src="/Bc_Logo.png"
+              width="110"
+              height="20"
+              alt="Harridui Serigrafía | B&c"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link
             href="https://catalogue.sologroup-paris.com/solo-group/e-catalogue-2024-ES/"
-            target="_blank">
-            <Image src="/Sols.svg" width="200" height="84" alt="Harridui Serigrafía | Sols" />
+            target="_blank"
+          >
+            <Image
+              src="/Sols.svg"
+              width="200"
+              height="84"
+              alt="Harridui Serigrafía | Sols"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
@@ -71,7 +87,12 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-12">
           <Link href="/" target="_blank">
-            <Image src="/fruit.svg" width="200" height="84" alt="Harridui Serigrafía | Fruit" />
+            <Image
+              src="/fruit.svg"
+              width="200"
+              height="84"
+              alt="Harridui Serigrafía | Fruit"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
@@ -81,7 +102,12 @@ export default function page() {
         </div>
         <div className="flex items-center justify-center pt-20">
           <Link href="/" target="_blank">
-            <Image src="/mantis.svg" width="200" height="84" alt="Harridui Serigrafía | Mantis" />
+            <Image
+              src="/mantis.svg"
+              width="200"
+              height="84"
+              alt="Harridui Serigrafía | Mantis"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-center pt-20">
@@ -138,8 +164,10 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link href="https://en.halfar.com/media/c5/50/23/1704354908/HAL231123-Kat%2024-GB.pdf"
-            target="_blank">
+          <Link
+            href="https://en.halfar.com/media/c5/50/23/1704354908/HAL231123-Kat%2024-GB.pdf"
+            target="_blank"
+          >
             <Image
               src="/Halfar.svg"
               width="170"
@@ -159,8 +187,10 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link href="https://beechfieldbrands.com/welcome-quadra"
-            target="_blank">
+          <Link
+            href="https://beechfieldbrands.com/welcome-quadra"
+            target="_blank"
+          >
             <Image
               src="/quadra.svg"
               width="200"
@@ -170,13 +200,28 @@ export default function page() {
           </Link>
         </div>
         <div className="flex items-center justify-center pt-12">
-          <Link href="https://www.russelleurope.com/s/catalogue?language=es"
-            target="_blank">
+          <Link
+            href="https://www.russelleurope.com/s/catalogue?language=es"
+            target="_blank"
+          >
             <Image
               src="/russell_logo.svg"
               width="100"
               height="84"
               alt="Harridui Serigrafía | Russell"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center justify-center pt-12">
+          <Link
+            href="https://www.russelleurope.com/s/catalogue?language=es"
+            target="_blank"
+          >
+            <Image
+              src="/oltex_logo.svg"
+              width="200"
+              height="84"
+              alt="Harridui Serigrafía | Oltex"
             />
           </Link>
         </div>
