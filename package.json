@@ -23,10 +23,10 @@
     "styled-components": "^6.1.14"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.19.0",
     "eslint-config-next": "15.1.6",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^4.0.3"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15"
   }
 }
