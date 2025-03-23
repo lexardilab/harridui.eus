@@ -7,7 +7,7 @@ export default function page() {
         <div className="sm:pl-4 lg:pl-8">
           <h1 className="font-semibold sm:text-2xl lg:text-4xl sm:underline">Contáctanos</h1>
           <Link href="mailto:harridui.studio@gmail.com">
-            <p className="font-semibold sm:pt-4 lg:pt-12 sm:text-2xl lg:text-4xl">kaixo@harridui.com </p>
+            <p className="font-semibold sm:pt-4 lg:pt-12 sm:text-2xl lg:text-4xl">harridui@harridui.eus </p>
           </Link>
           <p className="pt-2 font-semibold lg:text-4xl sm:text-2xl">688 84 32 13</p>
         </div>
