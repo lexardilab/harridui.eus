@@ -9,16 +9,16 @@ import Link from 'next/link';
 export default function AccordionUsage() {
     return (
         <main className='bg-[#eae9b9] h-screen'>
-            <div className='grid grid-cols-2 gap-4 px-4 pb-12 sm:pt-12 sm:grid-cols-1'>
+            <div className='grid gap-4 px-4 pt-16 pb-12 lg:grid-cols-2 sm:grid-cols-1'>
 
                 <div className='flex justify-center'>
-                    <Image
-                        src="/servicios_01.webp"
-                        width="500"
-                        height="600"
-                        alt=""
-                    />
-                </div>
+                                    <Image
+                                        src="/servicios_1.webp"
+                                        width="800"
+                                        height="800"
+                                        alt="Harridui Serigrafía | "
+                                    />
+                                </div>
                 <div>
                     <h1 className='pb-12 text-4xl font-semibold underline'>Serigrafía sobre Papel</h1>
                     <div>
@@ -35,7 +35,7 @@ export default function AccordionUsage() {
                                 aria-controls="panel1-content"
                                 id="panel1-header"
                             >
-                                <h1 className='pt-4 text-3xl font-light'>Materiales</h1>
+                                <h1 className='pt-4 text-3xl font-medium'>Materiales</h1>
                             </AccordionSummary>
                             <AccordionDetails
                             >
@@ -59,7 +59,7 @@ export default function AccordionUsage() {
 
                                 }}
                             >
-                                <h1 className='pt-4 text-3xl font-light'>Pedido Minimo</h1>
+                                <h1 className='pt-4 text-3xl font-medium'>Pedido Minimo</h1>
                             </AccordionSummary>
                             <AccordionDetails
                                 sx={{
@@ -90,7 +90,7 @@ export default function AccordionUsage() {
 
                                 }}
                             >
-                                <h1 className='pt-4 text-3xl font-light'>Personalización</h1>
+                                <h1 className='pt-4 text-3xl font-medium'>Personalización</h1>
                             </AccordionSummary>
                             <AccordionDetails
                                 sx={{
@@ -118,7 +118,7 @@ export default function AccordionUsage() {
 
                                 }}
                             >
-                                <h1 className='pt-4 text-3xl font-light'>Plazos de entrega</h1>
+                                <h1 className='pt-4 text-3xl font-medium'>Plazos de entrega</h1>
                             </AccordionSummary>
                             <AccordionDetails
                                 sx={{
