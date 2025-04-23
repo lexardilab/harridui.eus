@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "../globals.css";
 import Navbar from "../components/Navbar";
+import { Analytics } from "@vercel/analytics/react"
 import { GoogleAnalytics } from "@next/third-parties/google";
 const montserrat = Montserrat({
   weight: ["400", "700", "100"],
