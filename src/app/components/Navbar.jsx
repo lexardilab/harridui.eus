@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import HamburguerMenu from "./HamburguerMenu"
 
 export default function Navbar() {
   return (
@@ -18,12 +19,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex">
-        <Link href="/marcas">
-          <h1 className="px-4 text-base font-medium">Marcas</h1></Link>
-        <Link href="/servicios">
-          <h1 className="pr-4 text-base font-medium">Servicios</h1></Link>
-        <Link href="/presupuesto">
-          <h1 className="text-base font-medium ">Presupuesto</h1></Link>
+        <HamburguerMenu />
       </div>
     </nav>
   );
