@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div className="h-screen bg-[#eae9b9]">
+    <div className="h-screen bg-[#eae9b9] px-4">
       <div className="grid pt-12 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
         <div className="sm:pl-4 lg:pl-8">
           <h1 className="font-semibold sm:text-2xl lg:text-4xl sm:underline">Contáctanos</h1>
