@@ -5,7 +5,7 @@ import HamburguerMenu from "./HamburguerMenu"
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between sm:px-2 px-8 bg-[#eae9b9]">
+    <nav className="flex items-center justify-between sm:px-2 px-2 bg-[#eae9b9]">
       <div className="w-full pl-2">
         <Link href="/">
           <Image
