@@ -11,8 +11,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Harridui | Serigrafía",
-  description: "Harridui | Taller de serigrafía",
+  title: "Harridui Print Studio",
+  description: "Taller de serigrafía",
 };
 
 export default function RootLayout({ children }) {
