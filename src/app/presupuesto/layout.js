@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "Harridui | Presupuesto",
-  description: "Harridui | Taller de serigrafía",
+  description: "Taller de serigrafía",
 };
 const montserrat = Montserrat({
   weight: ["400", "700", "100"],
