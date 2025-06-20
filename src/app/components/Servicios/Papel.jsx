@@ -40,7 +40,7 @@ export default function AccordionUsage() {
                             <AccordionDetails
                             >
                                 <h1 className='pl-12 text-lg'>Para realizar las impresiones en papel usamos el papel <strong>G.F Smith Colorplan</strong> en gramaje
-                                    igual o superior a <strong>270 GSM</strong>. <strong><Link href="/papel"> Aquí</Link></strong> puedes encontrar los colores de los que disponemos. </h1>
+                                    igual o superior a <strong>270 GSM</strong>. <strong><Link href="/Papel"> Aquí</Link></strong> puedes encontrar los colores de los que disponemos. </h1>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion sx={{
