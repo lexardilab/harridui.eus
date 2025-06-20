@@ -66,7 +66,7 @@ export default function AccordionUsage() {
                                     backgroundColor: "#eae9b9",
 
                                 }}>
-                                <h1 className='pl-12 text-lg'>En el caso de la serigrafía textil, el pedido mínimo es
+                                <h1 className='pl-12 text-lg'>En el caso de la serigrafía sobre papel o cartón, el pedido mínimo es
                                     de <strong>25 unidades por diseño</strong>.
                                     En este caso, se pueden combinar papeles para llegar a 25 unidades,
                                     pero siempre que el diseño, color y tamaño a estampar sea el mismo en todos los productos.</h1>
