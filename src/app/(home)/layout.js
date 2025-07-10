@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "../globals.css";
 import Navbar from "../components/Navbar";
+import CookieBanner from "../components/CookieBanner";
 
 const montserrat = Montserrat({
   weight: ["100", "400", "700"],
@@ -64,6 +65,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <Navbar />
         {children}
+        <CookieBanner />
       </body>
     </html>
   );
