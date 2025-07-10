@@ -1,7 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "../globals.css";
-import Navbar from "../components/Navbar";
-import CookieBanner from "../components/CookieBanner";
+import Navbar from "./components/Navbar";
+import CookieBanner from "./components/CookieBanner";
 
 const montserrat = Montserrat({
   weight: ["100", "400", "700"],
