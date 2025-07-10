@@ -36,7 +36,7 @@ export default function CookieBanner() {
 
   return showBanner ? (
     <div className="fixed bottom-0 z-50 flex flex-col items-center justify-between w-full p-4 text-sm bg-black border-t shadow-md md:flex-row">
-      <span className="mb-2 md:mb-0">
+      <span className="mb-2 text-white md:mb-0">
         Utilizamos cookies para analizar el tráfico y mejorar tu experiencia.
       </span>
       <div className="flex gap-2">
