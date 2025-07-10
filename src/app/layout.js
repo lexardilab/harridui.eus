@@ -38,7 +38,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://harridui.com/images/og-image.jpg",
+        url: "https://harridui.com/images/og-image-es.jpg",
         width: 1200,
         height: 630,
         alt: "Harridui Print Studio - Taller de serigrafía",
@@ -49,7 +49,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Harridui Print Studio",
     description: "Taller de serigrafía artesanal en Bilbao.",
-    images: ["https://harridui.com/images/og-image.jpg"],
+    images: ["https://harridui.com/images/og-image-es.jpg"],
     creator: "@harridui",
   },
   icons: {
