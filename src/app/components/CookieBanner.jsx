@@ -10,20 +10,25 @@ export default function CookieBanner() {
   }, []);
 
   const handleConsent = (accepted) => {
+    console.log("Consent status:", accepted); // 👈 esto es clave
     localStorage.setItem("cookie_consent", accepted ? "accepted" : "rejected");
     setShowBanner(false);
     if (accepted) {
       loadGoogleAnalytics();
     }
   };
+  
 
   const loadGoogleAnalytics = () => {
+    console.log("🚀 Cargando Google Analytics");
+  
     if (typeof window === "undefined") return;
+  
     const script1 = document.createElement("script");
     script1.src = "https://www.googletagmanager.com/gtag/js?id=G-0RYGLLV69Z";
     script1.async = true;
     document.head.appendChild(script1);
-
+  
     const script2 = document.createElement("script");
     script2.innerHTML = `
       window.dataLayer = window.dataLayer || [];
@@ -33,6 +38,7 @@ export default function CookieBanner() {
     `;
     document.head.appendChild(script2);
   };
+  
 
   return showBanner ? (
     <div className="fixed bottom-0 z-50 flex flex-col items-center justify-between w-full p-4 text-sm bg-black border-t shadow-md md:flex-row">
@@ -42,13 +48,13 @@ export default function CookieBanner() {
       <div className="flex gap-2">
         <button
           onClick={() => handleConsent(false)}
-          className="px-3 py-1 text-white border rounded hover:bg-black"
+          className="px-3 py-1 text-white border rounded "
         >
           Rechazar
         </button>
         <button
           onClick={() => handleConsent(true)}
-          className="px-3 py-1 text-black bg-white rounded hover:bg-black hover:text-white"
+          className="px-3 py-1 text-black bg-white border rounded "
         >
           Aceptar
         </button>

@@ -10,6 +10,7 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
+// ✅ metadata (sin viewport ni themeColor)
 export const metadata = {
   title: "Harridui Print Studio",
   description: "Taller de serigrafía",
@@ -24,7 +25,7 @@ export const metadata = {
     "impresión artesanal",
     "bilbao",
   ],
-  metadataBase: new URL("https://harridui.com"), // Cambia por tu dominio real si es diferente
+  metadataBase: new URL("https://harridui.com"),
   alternates: {
     canonical: "https://harridui.com",
   },
@@ -37,7 +38,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://harridui.com/images/og-image.jpg", // Asegúrate de tener esta imagen en tu public/
+        url: "https://harridui.com/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Harridui Print Studio - Taller de serigrafía",
@@ -49,14 +50,20 @@ export const metadata = {
     title: "Harridui Print Studio",
     description: "Taller de serigrafía artesanal en Bilbao.",
     images: ["https://harridui.com/images/og-image.jpg"],
-    creator: "@harridui", // Opcional: tu cuenta de Twitter
+    creator: "@harridui",
   },
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-  themeColor: "#ffffff", // O el color que uses en la UI
-  viewport: "width=device-width, initial-scale=1.0",
+};
+
+// ✅ export por separado para themeColor y viewport
+export const themeColor = "#ffffff";
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1.0,
 };
 
 export default function RootLayout({ children }) {
