@@ -25,14 +25,14 @@ export const metadata = {
     "impresión artesanal",
     "bilbao",
   ],
-  metadataBase: new URL("https://harridui.com"),
+  metadataBase: new URL("https://harridui.eus"),
   alternates: {
-    canonical: "https://harridui.com",
+    canonical: "https://harridui.eus",
   },
   openGraph: {
     title: "Harridui Print Studio",
     description: "Taller de serigrafía artesanal",
-    url: "https://harridui.com",
+    url: "https://harridui.eus",
     siteName: "Harridui Print Studio",
     locale: "es_ES",
     type: "website",
