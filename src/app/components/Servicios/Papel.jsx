@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export default function AccordionUsage() {
     return (
-        <main className='bg-[#eae9b9]'>
+        <div className='bg-[#eae9b9]'>
             <div className='grid gap-4 px-4 pt-16 pb-12 lg:grid-cols-2 sm:grid-cols-1'>
 
                 <div className='flex justify-center'>
@@ -134,7 +134,7 @@ export default function AccordionUsage() {
                         </Accordion>
                     </div></div>
             </div >
-        </main>
+        </div>
 
     );
 }

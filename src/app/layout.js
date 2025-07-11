@@ -68,8 +68,8 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <body className={montserrat.className}>
+    <html lang="es" className="bg-[#eae9b9]">
+      <body className={`${montserrat.className}  `}>
         <Navbar />
         {children}
         <CookieBanner />
