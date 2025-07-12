@@ -7,7 +7,7 @@ serve(async (req) => {
   const { name, email, message } = await req.json();
 
   const { error } = await resend.emails.send({
-    from: "Formulario Web <noreply@tharridui.eus>",
+    from: "Formulario Web <harridui@harridui.eus>",
     to: "harridui@harridui.eus",
     subject: "Nuevo mensaje de contacto",
     html: `
