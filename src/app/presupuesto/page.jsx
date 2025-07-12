@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactoForm from "../components/ContactForm";
 
 export default function page() {
   return (
@@ -28,6 +29,7 @@ export default function page() {
           </h1>
         </div>
       </div>
+      <div className="pt-12 "><ContactoForm/></div>
     </div>
   );
 }
