@@ -7,17 +7,20 @@ serve(async (req) => {
   const { name, email, message } = await req.json();
 
   const { error } = await resend.emails.send({
-    from: "Formulario Web <harridui@harridui.eus>",
-    to: "harridui@harridui.eus",
-    subject: "Nuevo mensaje de contacto",
+    from: "Tu Web <noreply@resend.dev>",           // Remitente válido para pruebas
+    to: "lexardi.lab@gmail.com",                   // Tu correo personal (modo test)
+    subject: "Nuevo mensaje desde el formulario",
     html: `
+      <h2>Nuevo mensaje recibido</h2>
       <p><strong>Nombre:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Mensaje:</strong><br />${message}</p>
+      <p><strong>Mensaje:</strong></p>
+      <p>${message}</p>
     `,
   });
 
   if (error) {
+    console.error("Error al enviar el correo:", error.message);
     return new Response(JSON.stringify({ error: error.message }), { status: 500 });
   }
 
