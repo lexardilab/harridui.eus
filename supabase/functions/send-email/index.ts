@@ -8,7 +8,7 @@ serve(async (req) => {
 
   const { error } = await resend.emails.send({
     from: "Tu Web <noreply@resend.dev>",           // Remitente válido para pruebas
-    to: "lexardi.lab@gmail.com",                   // Tu correo personal (modo test)
+    to: "harridui@harridui.eus",                   // Tu correo personal (modo test)
     subject: "Nuevo mensaje desde el formulario",
     html: `
       <h2>Nuevo mensaje recibido</h2>
